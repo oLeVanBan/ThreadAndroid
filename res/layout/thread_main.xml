@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ff009999"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/TextView01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Working ...."
+android:textSize="18sp"
+android:textStyle="bold"  />
+<ProgressBar
+android:id="@+id/progress"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+style="?android:attr/progressBarStyleHorizontal" />
+
+<ProgressBar
+android:id="@+id/progress2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+
+
+<TextView
+android:id="@+id/TextView02"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="returned from thread..."
+android:textSize="14sp"
+android:background="#ff0000ff"
+android:textStyle="bold"
+android:layout_margin="7px"/>
+
+</LinearLayout>
+
